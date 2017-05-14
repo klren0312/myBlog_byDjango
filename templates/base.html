@@ -8,23 +8,32 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/pure/0.6.2/pure-min.css">
     <link rel="stylesheet" href="http://labfile.oss.aliyuncs.com/courses/487/grids-responsive-min.css">
     <link rel="stylesheet" href="http://labfile.oss.aliyuncs.com/courses/487/blog.css">
+    <link rel="stylesheet" href="http://labfile.oss.aliyuncs.com/courses/487/monokai.css">
 </head>
 <body>
 <div>
     <div id="layout" class="pure-g">
         <div class="sidebar pure-u-1 pure-u-md-1-4">
             <div class="header">
-                <h1 class="brand-title">KL ZZES REN</h1>
+                <h1 class="brand-title"><a href="{% url "home" %}">KL ZZES REN</a></h1>
                 <h2 class="brand-tagline">Want to have money</h2>
                 <nav class="nav">
                     <ul class="nav">
                         <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="/" class="button-success pure-button">Home</a>
+                            </li>
+                            <li class="nav-item"><a href="/" class="button-success pure-button">Archive</a></li>
+
                             <li class="nav-item">
                                 <a class="pure-button" href="http://zzesxiao.leanote.com">治电博客</a>
                             </li>
                             <li class="nav-item">
                                 <a class="pure-button" href="http://www.baidu.com">百度一下</a>
                             </li>
+
+                            <li class="nav-item"><a href="/" class="button-success pure-button">Pages</a></li>
+                            <li class="nav-item"><a href="/" class="button-success pure-button">About Me</a></li>
                         </ul>
                     </ul>
                 </nav>
